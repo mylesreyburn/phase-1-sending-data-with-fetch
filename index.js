@@ -53,8 +53,12 @@ function submitData(userName, userEmail){
             return egg
         })
         .then(function(object){
-            console.log(object)
-            document.querySelector("body").append(object)
+            console.log("object:", object)
+            console.log(typeof object)
+            let body = document.querySelector("body")
+            let p = document.createElement("p")
+            p.innerHTML = object.id
+            body.appendChild(p)
         })
         .catch((error) => {
             alert("uh oh! someone's [ERROR]")

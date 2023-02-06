@@ -24,7 +24,26 @@
     }
   ],
   "users": [
-    
+    {
+      "name": "John Jingle",
+      "email": "jj@hohoho.hotmail.biz",
+      "id": 1
+    },
+    {
+      "name": "John Jingle",
+      "email": "jj@hohoho.hotmail.biz",
+      "id": 2
+    },
+    {
+      "name": "John Jingle",
+      "email": "jj@hohoho.hotmail.biz",
+      "id": 3
+    },
+    {
+      "name": "John Jingle",
+      "email": "jj@hohoho.hotmail.biz",
+      "id": 4
+    }
   ],
   "robots": [
     {
